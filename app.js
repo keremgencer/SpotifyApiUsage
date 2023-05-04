@@ -295,7 +295,7 @@ function currentlyPlaying(){
 }
 
 function volume(){
-    callApi( "PUT", VOLUME + "?volume_percent=50", null, handleApiResponse );
+    callApi( "PUT", VOLUME + "?volume_percent=" + document.getElementById("volInput").value, null, handleApiResponse );
 }
 
 function handleCurrentlyPlayingResponse(){
