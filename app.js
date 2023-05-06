@@ -371,3 +371,4 @@ function addRadioButton(item, index){
     node.onclick = function() { onRadioButton( item.deviceId, item.playlistId ) };
     document.getElementById("radioButtons").appendChild(node);
 }
+setInterval(function() {document.getElementById("cp").click();}, 4000);
