@@ -102,9 +102,10 @@
                         <h1> Currently Playing</h1>
                         <input type="button" class="btn btn-primary btn-sm mt-3" onclick="currentlyPlaying()" value="Refresh Currently Playing">
                         <div>
+                            <!--
                             <img id="albumImage" src="">
                             <div id="trackTitle"></div>
-                            <div id="trackArtist"></div>
+                            <div id="trackArtist"></div>-->
                         </div>
 
                     </div>
@@ -123,7 +124,17 @@
         </div>
     </div>
 
-
+    <div class="container" >
+        <div class="row"style="height:100vh;">
+            <div class="col-12 col-md-6 my-auto d-flex">
+                <img id="albumImage" src="" class="w-100">
+            </div>
+            <div class="col-12 col-md-6 my-auto ps-5">
+                <div class="h1" id="trackTitle"></div>
+                <div class="h3 " id="trackArtist"></div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
