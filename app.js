@@ -1,4 +1,4 @@
-var redirect_uri = "https://keremgencer.github.io/SpotifyApiVolume/";
+var redirect_uri = "https://keremgencer.github.io/SpotifyApiUsage/";
 //var redirect_uri = "http://127.0.0.1:5500/düzgünce.htm"; // change this your value
 //var redirect_uri = "http://127.0.0.1:5500/index.html";
 
